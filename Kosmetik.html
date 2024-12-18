@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kosmetikstudio Michaela Schorm</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFF8F0;
+            color: #5A3E36;
+        }
+
+        header {
+            background-color: #F4C2C2;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            background-image: url('header-background.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #8B5E3C;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background-color: #A7785A;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px;
+            background-image: url('hero-image-kosmetik.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+
+        .section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .services {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .service {
+            background: #FFE4C4;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+
+        #contact {
+            background-color: #FDE8D0;
+            background-image: url('contact-background.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        footer {
+            background-color: #8B5E3C;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        @media (max-width: 768px) {
+            .services {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kosmetikstudio Michaela Schorm</h1>
+        <p>Natürliche Pflege und Schönheit mit Hildegard Braukmann</p>
+    </header>
+
+    <nav>
+        <a href="#about">Über uns</a>
+        <a href="#services">Leistungen</a>
+        <a href="#contact">Kontakt</a>
+    </nav>
+
+    <div class="hero">
+        <h2>Ihre Schönheit ist unsere Mission</h2>
+        <p>Entdecken Sie unsere individuellen Pflegeprogramme</p>
+    </div>
+
+    <section id="about" class="section">
+        <h2>Über uns</h2>
+        <p>Das Kosmetikstudio Michaela Schorm bietet hochwertige Behandlungen mit Produkten von Hildegard Braukmann. Unser Ziel ist es, Ihre natürliche Schönheit zu betonen.</p>
+    </section>
+
+    <section id="services" class="section">
+        <h2>Unsere Leistungen</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Gesichtsbehandlungen</h3>
+                <p>Individuell abgestimmte Pflege für jeden Hauttyp.</p>
+            </div>
+            <div class="service">
+                <h3>Wellness-Massagen</h3>
+                <p>Entspannen Sie sich bei unseren wohltuenden Massagen.</p>
+            </div>
+            <div class="service">
+                <h3>Make-up Beratung</h3>
+                <p>Professionelle Tipps und Techniken für Ihr perfektes Aussehen.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Kontakt</h2>
+        <p>Besuchen Sie uns oder vereinbaren Sie einen Termin:</p>
+        <p>Email: info@michaelaschorm.de | Telefon: 01234 56789</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Kosmetikstudio Michaela Schorm - Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
+</html>
